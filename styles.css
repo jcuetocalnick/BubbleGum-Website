@@ -1,0 +1,123 @@
+* ::before , ::after{
+  margin: 0;
+  padding:0;
+  }
+  html{
+    box-sizing: border-box;
+  }
+ #nav-bar img{
+  height: 70px;
+  float: left;
+  margin-right: 7px;
+  }
+  h2 , h3{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    color: #fff;
+    text-align:center;
+  }
+
+  nav{
+      position:fixed;
+      background: #FAAFBA;;
+      display:flex; 
+      flex-wrap:wrap;
+      align-items: center;
+      justify-content:space-between;
+      padding: 2px 2px 2px 2px;  
+      top:0%;
+  }
+  #nav-bar a{
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;  
+    
+  }
+  #nav-bar{
+    display:flex;
+    flex: 1;
+    list-style: none;
+    
+}
+  nav .nav-link li{
+      padding: 0 15px;
+
+  }
+  .nav-link{
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight:500;
+  }
+  #nav-bar a:hover{
+      color: #800080;
+  }
+  nav form{
+      display: flex;
+      height: 40px;
+      background: #1e232b;
+      min-width: 18%!important;
+      border: 1px solid rgba(155, 155 , 155,0.2);
+      border-radius : 2px;
+      padding: 2px;
+  }
+  
+  form{
+    background-image: url(https://garden.spoonflower.com/c/6115556/p/f/m/KHPoIXPjj9n25AjSx9YNqMfPR3KNYH1TfJv9opiz8Nm9bbimlOw/bubblegum%20pink%20%2F%2F%20solid%20pastel%20pink%20fabric%20by%20andrea%20lauren.jpg);
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+    object-position: center;
+  }
+  fieldset{
+    padding: 2rem;
+    border: 3px solid #FAAFBA;
+    text-align:center;
+    font-size: 25px;
+    color:#fff;
+  }
+  label {
+    display:block;
+    text-align:center;
+    font-size: 25px;
+    color:#fff;
+  }
+  input , textarea{
+    margin: 0 auto;
+    border:3px solid #FAAFBA;
+  }
+  header{
+    padding-top: 20px;
+    padding-bottom:20px;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:30px;
+    color: #fff;
+    text-align:center;
+  }
+  body{
+    background:hotpink;
+  }
+  iframe{
+    padding-top:20px;
+    position:center;
+    display:block;
+    margin: 0 auto;
+   
+  }
+  p{
+    color:#fff;
+    font-size:18px;
+    text-align:center;
+    font-family: sans-serif;
+    text-decoration: wavy;
+  }
+  @media (min-width: 480px) {
+    #navbar {
+      position: fixed;
+    }
+  }
+  
